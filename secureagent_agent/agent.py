@@ -1,7 +1,7 @@
 import os
 from google.adk.agents import LlmAgent
-from google.adk.tools.mcp_tool import McpToolset
-from mcp.client.stdio import StdioServerParameters
+from google.adk.tools.mcp_tool import MCPToolset as McpToolset
+from google.adk.tools.mcp_tool import StdioServerParameters
 
 # Replace this with your actual connection string from Step 13
 MONGODB_CONNECTION_STRING = "***REMOVED-CREDENTIAL-SEE-ENV-MONGODB_CONNECTION_STRING***"
